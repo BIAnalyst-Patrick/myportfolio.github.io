@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="preload" as="image" imageSrcSet="/_next/image?url=https%3A%2F%2Fassets.super.so%2F6fbf1b23-ebf2-4fbb-9345-0d569aee03fa%2Fuploads%2Flogo%2F1bf7de4e-5420-4145-9006-7b92d01490d6.png&amp;w=256&amp;q=90 1x, /_next/image?url=https%3A%2F%2Fassets.super.so%2F6fbf1b23-ebf2-4fbb-9345-0d569aee03fa%2Fuploads%2Flogo%2F1bf7de4e-5420-4145-9006-7b92d01490d6.png&amp;w=384&amp;q=90 2x" fetchPriority="high"/>
+        <!-- Placeholder for missing CSS -->
+        <link rel="stylesheet" href="css/c10f41517bf2a087.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/8d42d1a6038413a1.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/0b3e1f5286024b41.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/72c9eff68bdb8d49.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/910da6a3c0937129.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/f4a8a992e228bc78.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/f920ca8b807b58a8.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/44b83c3d2ca981fd.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/52fce15ee309ea55.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/6bbf6298f76eb501.css" data-precedence="next"/>
+        <link rel="stylesheet" href="ccss/0923cd594b94220c.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/ea19e76e101db1c6.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/cc16b21606be7572.css" data-precedence="next"/>
+        <link rel="stylesheet" href="css/5fb2e9f3d82f937c.css" as="style" data-precedence="dynamic"/>
+        <link rel="icon" href="Patrick.jpg"/>
+        <link rel="preload" href="https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2" crossorigin="anonymous" as="font" type="font/woff2"/>
+        <link rel="preload" href="https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-500.woff2" crossorigin="anonymous" as="font" type="font/woff2"/>
+        <link rel="preload" href="https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-600.woff2" crossorigin="anonymous" as="font" type="font/woff2"/>
+        <link rel="preload" href="https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2" crossorigin="anonymous" as="font" type="font/woff2"/>
+        <title>Sales Trend Analysis</title>
+        <meta name="description" content="Table of Contents"/>
+        <meta name="generator" content="Super"/>
+        <meta name="robots" content="index, follow"/>
+        <meta name="super-project" content="feat/app-router"/>
+        <meta property="og:title" content="ByteX Post-Pandemic Analysis"/>
+        <meta property="og:description" content="Table of Contents"/>
+        <meta property="og:url" content="https://github.com/BIAnalyst-Patrick"/>
+        <meta property="og:site_name" content="Sales Trend Analysis"/>
+        <meta property="og:locale" content="en-US"/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Sales Trend Analysis"/>
+        <meta name="twitter:description" content="Table of Contents"/>
+        <script>
+            const html = document.getElementsByTagName("html")[0];
+            try {
+                const colorPreference = localStorage ? localStorage.getItem("color-preference") : null;
+
+                if (true) {
+                    html.classList.remove("theme-light");
+                }
+
+                if (true && colorPreference && html) {
+                    html.classList.add("theme-" + colorPreference);
+                } else {
+                    html.classList.add("theme-light");
+                }
+            } catch (e) {
+                console.log('ERROR themeEffect', e)
+                html.classList.add("theme-light");
+            }
+        </script>
+        <style>
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-display: swap;
+                font-weight: 400;
+                src: url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot");
+                src: local(""),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot?#iefix") format("embedded-opentype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2") format("woff2"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff") format("woff"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-regular.ttf") format("truetype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-regular.svg#Inter") format("svg")
+            }
+
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-display: swap;
+                font-weight: 500;
+                src: url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-500.eot");
+                src: local(""),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-500.eot?#iefix") format("embedded-opentype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-500.woff2") format("woff2"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-500.woff") format("woff"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-500.ttf") format("truetype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-500.svg#Inter") format("svg")
+            }
+
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-display: swap;
+                font-weight: 600;
+                src: url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-600.eot");
+                src: local(""),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-600.eot?#iefix") format("embedded-opentype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-600.woff2") format("woff2"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-600.woff") format("woff"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-600.ttf") format("truetype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-600.svg#Inter") format("svg")
+            }
+
+            @font-face {
+                font-family: Inter;
+                font-style: normal;
+                font-display: swap;
+                font-weight: 700;
+                src: url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-700.eot");
+                src: local(""),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-700.eot?#iefix") format("embedded-opentype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2") format("woff2"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-700.woff") format("woff"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-700.ttf") format("truetype"),url("https://assets-v2.super.so/global/fonts/Inter/inter-v12-latin-ext_latin_cyrillic-ext_cyrillic-700.svg#Inter") format("svg")
+            }
+
+            @font-face {
+                font-family: Inter-fallback;
+                size-adjust:107%;ascent-override:90%;src: local("Arial")
+            }
+        </style>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-G48MXHT5XP');
+        </script>
+        <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+        <style id="__jsx-1265892645">
+            html.theme-dark {
+                --gray-h: 0;
+                --gray-s: 0%;
+                --gray-l: 61%;
+                --color-gray: hsl(var(--gray-h), var(--gray-s), var(--gray-l));
+                --color-text-gray: var(--color-gray);
+                --color-bg-gray: hsl( var(--gray-h), var(--gray-s), 14.5% );
+                --color-bg-gray-light: hsl( var(--gray-h), var(--gray-s), 14.5% );
+                --color-pill-gray: hsl( var(--gray-h), var(--gray-s), 35% );
+                --color-pill-text-gray: hsl( var(--gray-h), var(--gray-s), calc(var(--gray-l) + 26%) );
+                --brown-h: 18;
+                --brown-s: 35%;
+                --brown-l: 58%;
+                --color-brown: hsl(var(--brown-h), var(--brown-s), var(--brown-l));
+                --color-text-brown: var(--color-brown);
+                --color-bg-brown: hsl( var(--brown-h), calc(var(--brown-s) - 7%), 22% );
+                --color-bg-brown-light: hsl( calc(var(--brown-h) - 2), calc(var(--brown-s) - 22%), 16% );
+                --color-pill-brown: hsl( var(--brown-h), calc(var(--brown-s) + 2%), 27% );
+                --color-pill-text-brown: hsl( var(--brown-h), calc(var(--brown-s) - 21%), calc(var(--brown-l) + 33%) );
+                --orange-h: 25;
+                --orange-s: 54%;
+                --orange-l: 53%;
+                --color-orange: hsl( var(--orange-h), var(--orange-s), var(--orange-l) );
+                --color-text-orange: var(--color-orange);
+                --color-bg-orange: hsl( var(--orange-h), calc(var(--orange-s) - 10%), 25% );
+                --color-bg-orange-light: hsl( var(--orange-h), calc(var(--orange-s) - 30%), 17% );
+                --color-pill-orange: hsl( var(--orange-h), calc(var(--orange-s) + 9%), 32% );
+                --color-pill-text-orange: hsl( var(--orange-h), calc(var(--orange-s) - 23%), calc(var(--orange-l) + 33%) );
+                --yellow-h: 38;
+                --yellow-s: 54%;
+                --yellow-l: 54%;
+                --color-yellow: hsl( var(--yellow-h), var(--yellow-s), var(--yellow-l) );
+                --color-text-yellow: var(--color-yellow);
+                --color-bg-yellow: hsl( var(--yellow-h), calc(var(--yellow-s) - 18%), 25% );
+                --color-bg-yellow-light: hsl( var(--yellow-h), calc(var(--yellow-s) - 24%), 17% );
+                --color-pill-yellow: hsl( calc(var(--yellow-h) - 1), calc(var(--yellow-s) + 2%), 35% );
+                --color-pill-text-yellow: hsl( var(--yellow-h), calc(var(--yellow-s) - 28%), calc(var(--yellow-l) + 33%) );
+                --green-h: 146;
+                --green-s: 32%;
+                --green-l: 47%;
+                --color-green: hsl(var(--green-h), var(--green-s), var(--green-l));
+                --color-text-green: var(--color-green);
+                --color-bg-green: hsl( calc(var(--green-h) + 3), calc(var(--green-s) - 6%), 19% );
+                --color-bg-green-light: hsl( var(--green-h), calc(var(--green-s) - 20%), 15% );
+                --color-pill-green: hsl( calc(var(--green-h) + 1), calc(var(--green-s) + 3%), 26% );
+                --color-pill-text-green: hsl( var(--green-h), calc(var(--green-s) - 20%), calc(var(--green-l) + 38%) );
+                --blue-h: 217;
+                --blue-s: 50%;
+                --blue-l: 58%;
+                --color-blue: hsl(var(--blue-h), var(--blue-s), var(--blue-l));
+                --color-text-blue: var(--color-blue);
+                --color-bg-blue: hsl( calc(var(--blue-h) - 16), calc(var(--blue-s) + 9%), 19% );
+                --color-bg-blue-light: hsl( calc(var(--blue-h) + 16), calc(var(--blue-s) - 27%), 15% );
+                --color-pill-blue: hsl( calc(var(--blue-h) - 3), calc(var(--blue-s) - 6%), 29% );
+                --color-pill-text-blue: hsl( calc(var(--blue-h) - 5), calc(var(--blue-s) - 32%), calc(var(--blue-l) + 28%) );
+                --purple-h: 270;
+                --purple-s: 55%;
+                --purple-l: 62%;
+                --color-purple: hsl( var(--purple-h), var(--purple-s), var(--purple-l) );
+                --color-text-purple: var(--color-purple);
+                --color-bg-purple: hsl( calc(var(--purple-h) + 2), calc(var(--purple-s) - 31%), 23% );
+                --color-bg-purple-light: hsl( calc(var(--purple-h) + 5), calc(var(--purple-s) - 40%), 17% );
+                --color-pill-purple: hsl( var(--purple-h), calc(var(--purple-s) - 19%), 29% );
+                --color-pill-text-purple: hsl( calc(var(--purple-h) - 3), calc(var(--purple-s) - 40%), calc(var(--purple-l) + 24%) );
+                --pink-h: 329;
+                --pink-s: 57%;
+                --pink-l: 58%;
+                --color-pink: hsl(var(--pink-h), var(--pink-s), var(--pink-l));
+                --color-text-pink: var(--color-pink);
+                --color-bg-pink: hsl( calc(var(--pink-h) + 3), calc(var(--pink-s) - 29%), 24% );
+                --color-bg-pink-light: hsl( calc(var(--pink-h) + 5), calc(var(--pink-s) - 40%), 16% );
+                --color-pill-pink: hsl( calc(var(--pink-h) - 2), calc(var(--pink-s) - 21%), 30% );
+                --color-pill-text-pink: hsl( calc(var(--pink-h) + 4), calc(var(--pink-s) - 41%), calc(var(--pink-l) + 28%) );
+                --red-h: 1;
+                --red-s: 69%;
+                --red-l: 60%;
+                --color-red: hsl(var(--red-h), var(--red-s), var(--red-l));
+                --color-text-red: var(--color-red);
+                --color-bg-red: hsl( calc(var(--red-h) + 5), calc(var(--red-s) - 37%), 24% );
+                --color-bg-red-light: hsl( calc(var(--red-h) + 5), calc(var(--red-s) - 56%), 17% );
+                --color-pill-red: hsl( calc(var(--red-h) + 5), calc(var(--red-s) - 30%), 31% );
+                --color-pill-text-red: hsl( calc(var(--red-h) + 7), calc(var(--red-s) - 50%), calc(var(--red-l) + 24%) );
+                --default-h: 45;
+                --default-s: 8%;
+                --default-l: 20%;
+                --color-default: hsl( var(--default-h), var(--default-s), var(--default-l) );
+                --color-pill-default: hsl( var(--default-h), var(--default-s), -19% );
+                --color-pill-text-default: hsl( var(--default-h), var(--default-s), calc(var(--default-l) + 23%) );
+                --color-text-default: #e1e1e1;
+                --color-text-default-light: #9b9b9b;
+                --color-bg-default: #191919;
+                --color-border-default: #373737;
+                --color-border-dark: var(--color-border-default);
+                --color-ui-hover-bg: #262626;
+                --color-card-bg: #262626;
+                --color-card-bg-hover: #2f2f2f;
+                --color-calendar-weekend-bg: #202020;
+                --color-checkbox-bg: #2EAADC;
+                --color-code-bg: rgba(135,131,120,.15);
+                --scrollbar-background-color: #191919;
+                --scrollbar-thumb-color: #2c2c2c;
+                --scrollbar-border-color: #E8E8E8;
+                --navbar-text-color: #e1e1e1;
+                --navbar-list-item-hover: rgba(255,255,255,.2);
+                --navbar-background-color: #191919;
+                --navbar-background-color-hover: #282828;
+                --navbar-button-text-color: #191919;
+                --navbar-button-background-color: #e1e1e1;
+                --navbar-menu-background-color: var(--navbar-background-color);
+                --navbar-text-color-dark: #d2d2d2;
+                --footer-text-color: #e1e1e1;
+                --footer-background-color: #191919;
+                --sidebar-text-color: #e1e1e1;
+                --sidebar-cta-text-color: #e1e1e1;
+                --sidebar-background-color: #191919;
+                --sidebar-cta-background-color: #191919;
+                --sidebar-border-color: #373737;
+                --sidebar-background-color-hover: #262626;
+                --sidebar-text-color-dark: #d2d2d2;
+                --sidebar-cta-background-color-hover: #262626
+            }
+
+            html.theme-dark .notion-collection-calendar__row {
+                box-shadow: var(--color-border-default) -1px 0 0
+            }
+
+            html.theme-dark .notion-collection-calendar__week-days {
+                box-shadow: var(--color-border-default) 0 1px 0
+            }
+
+            html.theme-dark .notion-collection-calendar__date {
+                border-right: 1px solid var(--color-border-default);
+                border-bottom: 1px solid var(--color-border-default)
+            }
+
+            html.theme-dark code[class*=language-],html.theme-dark pre[class*=language-] {
+                background: #272b33;
+                color: #aab1bf;
+                text-shadow: 0 1px rgba(0,0,0,.3);
+                font-family: "Fira Code","Fira Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace;
+                direction: ltr;
+                text-align: left;
+                white-space: pre;
+                word-spacing: normal;
+                word-break: normal;
+                line-height: 1.5;
+                -moz-tab-size: 2;
+                -o-tab-size: 2;
+                tab-size: 2;
+                -webkit-hyphens: none;
+                -moz-hyphens: none;
+                -ms-hyphens: none;
+                hyphens: none
+            }
+
+            html.theme-dark code[class*=language-] ::-moz-selection,html.theme-dark code[class*=language-]::-moz-selection,html.theme-dark pre[class*=language-] ::-moz-selection {
+                background: #3e4450;
+                color: inherit;
+                text-shadow: none
+            }
+
+            html.theme-dark code[class*=language-] ::selection,html.theme-dark code[class*=language-]::selection,html.theme-dark pre[class*=language-] ::selection {
+                background: #3e4450;
+                color: inherit;
+                text-shadow: none
+            }
+
+            html.theme-dark pre[class*=language-] {
+                padding: 1em;
+                margin: .5em 0;
+                overflow: auto;
+                border-radius: .3em
+            }
+
+            html.theme-dark :not(pre)>code[class*=language-] {
+                padding: .2em .3em;
+                border-radius: .3em;
+                white-space: normal
+            }
+
+            @media print {
+                html.theme-dark code[class*=language-],html.theme-dark pre[class*=language-] {
+                    text-shadow: none
+                }
+            }
+
+            html.theme-dark .token.cdata,html.theme-dark .token.comment,html.theme-dark .token.prolog {
+                color: #5b6270
+            }
+
+            html.theme-dark .token.doctype,html.theme-dark .token.entity,html.theme-dark .token.punctuation {
+                color: #aab1bf
+            }
+
+            html.theme-dark .token.atrule,html.theme-dark .token.attr-name,html.theme-dark .token.boolean,html.theme-dark .token.class-name,html.theme-dark .token.constant,html.theme-dark .token.number {
+                color: #d19965
+            }
+
+            html.theme-dark .token.keyword {
+                color: #c578dd
+            }
+
+            html.theme-dark .token.deleted,html.theme-dark .token.important,html.theme-dark .token.property,html.theme-dark .token.symbol,html.theme-dark .token.tag {
+                color: #df6b75
+            }
+
+            html.theme-dark .token.attr-value,html.theme-dark .token.attr-value>.token.punctuation,html.theme-dark .token.builtin,html.theme-dark .token.char,html.theme-dark .token.inserted,html.theme-dark .token.regex,html.theme-dark .token.selector,html.theme-dark .token.string {
+                color: #97c279
+            }
+
+            html.theme-dark .token.function,html.theme-dark .token.operator,html.theme-dark .token.variable {
+                color: #61afef
+            }
+
+            html.theme-dark .token.url {
+                color: #56b5c2
+            }
+
+            html.theme-dark .token.attr-value>.token.punctuation.attr-equals,html.theme-dark .token.special-attr>.token.attr-value>.token.value.css {
+                color: #aab1bf
+            }
+
+            html.theme-dark .language-css .token.selector {
+                color: #df6b75
+            }
+
+            html.theme-dark .language-css .token.property {
+                color: #aab1bf
+            }
+
+            html.theme-dark .language-css .token.function,html.theme-dark .language-css .token.url>.token.function {
+                color: #56b5c2
+            }
+
+            html.theme-dark .language-css .token.url>.token.string.url {
+                color: #97c279
+            }
+
+            html.theme-dark .language-css .token.atrule .token.rule,html.theme-dark .language-css .token.important {
+                color: #c578dd
+            }
+
+            html.theme-dark .language-javascript .token.operator {
+                color: #c578dd
+            }
+
+            html.theme-dark .language-javascript .token.template-string>.token.interpolation>.token.interpolation-punctuation.punctuation {
+                color: #be5046
+            }
+
+            html.theme-dark .language-json .token.operator {
+                color: #aab1bf
+            }
+
+            html.theme-dark .language-json .token.null.keyword {
+                color: #d19965
+            }
+
+            html.theme-dark .language-markdown .token.url,html.theme-dark .language-markdown .token.url-reference.url>.token.string,html.theme-dark .language-markdown .token.url>.token.operator {
+                color: #aab1bf
+            }
+
+            html.theme-dark .language-markdown .token.url>.token.content {
+                color: #61afef
+            }
+
+            html.theme-dark .language-markdown .token.url-reference.url,html.theme-dark .language-markdown .token.url>.token.url {
+                color: #56b5c2
+            }
+
+            html.theme-dark .language-markdown .token.blockquote.punctuation,html.theme-dark .language-markdown .token.hr.punctuation {
+                color: #5b6270;
+                font-style: italic
+            }
+
+            html.theme-dark .language-markdown .token.code-snippet {
+                color: #97c279
+            }
+
+            html.theme-dark .language-markdown .token.bold .token.content {
+                color: #d19965
+            }
+
+            html.theme-dark .language-markdown .token.italic .token.content {
+                color: #c578dd
+            }
+
+            html.theme-dark .language-markdown .token.list.punctuation,html.theme-dark .language-markdown .token.strike .token.content,html.theme-dark .language-markdown .token.strike .token.punctuation,html.theme-dark .language-markdown .token.title.important>.token.punctuation {
+                color: #df6b75
+            }
+
+            html.theme-dark .token.bold {
+                font-weight: 700
+            }
+
+            html.theme-dark .token.comment,html.theme-dark .token.italic {
+                font-style: italic
+            }
+
+            html.theme-dark .token.entity {
+                cursor: help
+            }
+
+            html.theme-dark .token.namespace {
+                opacity: .8
+            }
+
+            html.theme-dark .token.token.cr:before,html.theme-dark .token.token.lf:before,html.theme-dark .token.token.space:before,html.theme-dark .token.token.tab:not(:empty):before {
+                color: hsla(220,14%,71%,.15);
+                text-shadow: none
+            }
+
+            html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item {
+                margin-right: .4em
+            }
+
+            html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>a,html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>button,html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>span {
+                background: #393f4a;
+                color: #818896;
+                padding: .1em .4em;
+                border-radius: .3em
+            }
+
+            html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>a:focus,html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>a:hover,html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>button:focus,html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>button:hover,html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>span:focus,html.theme-dark div.code-toolbar>.toolbar.toolbar>.toolbar-item>span:hover {
+                background: #3e4450;
+                color: #aab1bf
+            }
+
+            html.theme-dark .line-highlight.line-highlight {
+                background: hsla(220,100%,80%,.04)
+            }
+
+            html.theme-dark .line-highlight.line-highlight:before,html.theme-dark .line-highlight.line-highlight[data-end]:after {
+                background: #393f4a;
+                color: #aab1bf;
+                padding: .1em .6em;
+                border-radius: .3em;
+                box-shadow: 0 2px 0 0 rgba(0,0,0,.2)
+            }
+
+            html.theme-dark pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows>span:hover:before {
+                background-color: hsla(220,100%,80%,.04)
+            }
+
+            html.theme-dark .command-line .command-line-prompt,html.theme-dark .line-numbers.line-numbers .line-numbers-rows {
+                border-right-color: hsla(220,14%,71%,.15)
+            }
+
+            html.theme-dark .command-line .command-line-prompt>span:before,html.theme-dark .line-numbers .line-numbers-rows>span:before {
+                color: #626d82
+            }
+
+            html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-1,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-5,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-9 {
+                color: #df6b75
+            }
+
+            html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-10,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-2,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-6 {
+                color: #97c279
+            }
+
+            html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-11,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-3,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-7 {
+                color: #61afef
+            }
+
+            html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-12,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-4,html.theme-dark .rainbow-braces .token.token.punctuation.brace-level-8 {
+                color: #c578dd
+            }
+
+            html.theme-dark pre.diff-highlight>code .token.token.deleted:not(.prefix),html.theme-dark pre>code.diff-highlight .token.token.deleted:not(.prefix) {
+                background-color: hsla(353,100%,66%,.15)
+            }
+
+            html.theme-dark pre.diff-highlight>code .token.token.deleted:not(.prefix) ::-moz-selection,html.theme-dark pre.diff-highlight>code .token.token.deleted:not(.prefix)::-moz-selection,html.theme-dark pre>code.diff-highlight .token.token.deleted:not(.prefix) ::-moz-selection,html.theme-dark pre>code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection {
+                background-color: hsla(353,95%,66%,.25)
+            }
+
+            html.theme-dark pre.diff-highlight>code .token.token.deleted:not(.prefix) ::selection,html.theme-dark pre.diff-highlight>code .token.token.deleted:not(.prefix)::selection,html.theme-dark pre>code.diff-highlight .token.token.deleted:not(.prefix) ::selection,html.theme-dark pre>code.diff-highlight .token.token.deleted:not(.prefix)::selection {
+                background-color: hsla(353,95%,66%,.25)
+            }
+
+            html.theme-dark pre.diff-highlight>code .token.token.inserted:not(.prefix),html.theme-dark pre>code.diff-highlight .token.token.inserted:not(.prefix) {
+                background-color: hsla(137,100%,55%,.15)
+            }
+
+            html.theme-dark pre.diff-highlight>code .token.token.inserted:not(.prefix) ::-moz-selection,html.theme-dark pre.diff-highlight>code .token.token.inserted:not(.prefix)::-moz-selection,html.theme-dark pre>code.diff-highlight .token.token.inserted:not(.prefix) ::-moz-selection,html.theme-dark pre>code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection {
+                background-color: hsla(135,73%,55%,.25)
+            }
+
+            html.theme-dark pre.diff-highlight>code .token.token.inserted:not(.prefix) ::selection,html.theme-dark pre.diff-highlight>code .token.token.inserted:not(.prefix)::selection,html.theme-dark pre>code.diff-highlight .token.token.inserted:not(.prefix) ::selection,html.theme-dark pre>code.diff-highlight .token.token.inserted:not(.prefix)::selection {
+                background-color: hsla(135,73%,55%,.25)
+            }
+
+            html.theme-dark .prism-previewer-gradient.prism-previewer-gradient div,html.theme-dark .prism-previewer.prism-previewer:before {
+                border-color: #252830
+            }
+
+            html.theme-dark .prism-previewer-color.prism-previewer-color:before,html.theme-dark .prism-previewer-easing.prism-previewer-easing:before,html.theme-dark .prism-previewer-gradient.prism-previewer-gradient div {
+                border-radius: .3em
+            }
+
+            html.theme-dark .prism-previewer.prism-previewer:after {
+                border-top-color: #252830
+            }
+
+            html.theme-dark .prism-previewer-flipped.prism-previewer-flipped.after {
+                border-bottom-color: #252830
+            }
+
+            html.theme-dark .prism-previewer-angle.prism-previewer-angle:before,html.theme-dark .prism-previewer-easing.prism-previewer-easing,html.theme-dark .prism-previewer-time.prism-previewer-time:before {
+                background: #30353f
+            }
+
+            html.theme-dark .prism-previewer-angle.prism-previewer-angle circle,html.theme-dark .prism-previewer-time.prism-previewer-time circle {
+                stroke: hsl(220,14%,71%);
+                stroke-opacity: 1
+            }
+
+            html.theme-dark .prism-previewer-easing.prism-previewer-easing circle,html.theme-dark .prism-previewer-easing.prism-previewer-easing line,html.theme-dark .prism-previewer-easing.prism-previewer-easing path {
+                stroke: hsl(220,14%,71%)
+            }
+
+            html.theme-dark .prism-previewer-easing.prism-previewer-easing circle {
+                fill: transparent
+            }
+
+            html.theme-light {
+                --gray-h: 36;
+                --gray-s: 2%;
+                --gray-l: 46%;
+                --color-gray: hsl(var(--gray-h), var(--gray-s), var(--gray-l));
+                --color-text-gray: var(--color-gray);
+                --color-bg-gray: hsl( var(--gray-h), var(--gray-s), 90% );
+                --color-bg-gray-light: var(--color-bg-gray);
+                --color-pill-gray: hsl( calc(var(--gray-h) + 14), var(--gray-s), 88% );
+                --color-pill-text-gray: hsl( var(--gray-h), var(--gray-s), calc(var(--gray-l) - 28%) );
+                --brown-h: 19;
+                --brown-s: 31%;
+                --brown-l: 47%;
+                --color-brown: hsl(var(--brown-h), var(--brown-s), var(--brown-l));
+                --color-text-brown: var(--color-brown);
+                --color-bg-brown: hsl( var(--brown-h), var(--brown-s), 90% );
+                --color-bg-brown-light: var(--color-bg-brown);
+                --color-pill-brown: hsl( var(--brown-h), calc(var(--brown-s) + 10%), 89% );
+                --color-pill-text-brown: hsl( var(--brown-h), calc(var(--brown-s) + 10%), calc(var(--brown-l) - 28%) );
+                --orange-h: 30;
+                --orange-s: 87%;
+                --orange-l: 45%;
+                --color-orange: hsl( var(--orange-h), var(--orange-s), var(--orange-l) );
+                --color-text-orange: var(--color-orange);
+                --color-bg-orange: hsl( var(--orange-h), var(--orange-s), 90% );
+                --color-bg-orange-light: var(--color-bg-orange);
+                --color-pill-orange: hsl( var(--orange-h), calc(var(--orange-s) - 6%), 87% );
+                --color-pill-text-orange: hsl( calc(var(--orange-h) - 5), calc(var(--orange-s) - 18%), calc(var(--orange-l) - 28%) );
+                --yellow-h: 38;
+                --yellow-s: 62%;
+                --yellow-l: 49%;
+                --color-yellow: hsl( var(--yellow-h), var(--yellow-s), var(--yellow-l) );
+                --color-text-yellow: var(--color-yellow);
+                --color-bg-yellow: hsl( var(--yellow-h), calc(var(--yellow-s) + 90%), 90% );
+                --color-bg-yellow-light: var(--color-bg-yellow);
+                --color-pill-yellow: hsl( calc(var(--yellow-h) + 3), calc(var(--yellow-s) + 24%), 90% );
+                --color-pill-text-yellow: hsl( calc(var(--yellow-h) - 11), calc(var(--yellow-s) - 22%), calc(var(--yellow-l) - 28%) );
+                --green-h: 149;
+                --green-s: 31%;
+                --green-l: 39%;
+                --color-green: hsl(var(--green-h), var(--green-s), var(--green-l));
+                --color-text-green: var(--color-green);
+                --color-bg-green: hsl( var(--green-h), var(--green-s), 90% );
+                --color-bg-green-light: var(--color-bg-green);
+                --color-pill-green: hsl( calc(var(--green-h) - 28), calc(var(--green-s) + 3%), 89% );
+                --color-pill-text-green: hsl( calc(var(--green-h) - 2), var(--green-s), calc(var(--green-l) - 22%) );
+                --blue-h: 202;
+                --blue-s: 53%;
+                --blue-l: 43%;
+                --color-blue: hsl(var(--blue-h), var(--blue-s), var(--blue-l));
+                --color-text-blue: var(--color-blue);
+                --color-bg-blue: hsl( var(--blue-h), var(--blue-s), 90% );
+                --color-bg-blue-light: var(--color-bg-blue);
+                --color-pill-blue: hsl( var(--blue-h), calc(var(--blue-s) - 5%), 85% );
+                --color-pill-text-blue: hsl( calc(var(--blue-h) + 7), calc(var(--blue-s) - 6%), calc(var(--blue-l) - 22%) );
+                --purple-h: 274;
+                --purple-s: 32%;
+                --purple-l: 54%;
+                --color-purple: hsl( var(--purple-h), var(--purple-s), var(--purple-l) );
+                --color-text-purple: var(--color-purple);
+                --color-bg-purple: hsl( var(--purple-h), var(--purple-s), 90% );
+                --color-bg-purple-light: var(--color-bg-purple);
+                --color-pill-purple: hsl( var(--purple-h), calc(var(--purple-s) + 5%), 90% );
+                --color-pill-text-purple: hsl( calc(var(--purple-h) + 1), calc(var(--purple-s) + 10%), calc(var(--purple-l) - 31%) );
+                --pink-h: 328;
+                --pink-s: 48%;
+                --pink-l: 53%;
+                --color-pink: hsl(var(--pink-h), var(--pink-s), var(--pink-l));
+                --color-text-pink: var(--color-pink);
+                --color-bg-pink: hsl( var(--pink-h), var(--pink-s), 90% );
+                --color-bg-pink-light: var(--color-bg-pink);
+                --color-pill-pink: hsl( var(--pink-h), var(--pink-s), 90% );
+                --color-pill-text-pink: hsl( calc(var(--pink-h) + 3), calc(var(--pink-s) - 14%), calc(var(--pink-l) - 31%) );
+                --red-h: 2;
+                --red-s: 62%;
+                --red-l: 55%;
+                --color-red: hsl(var(--red-h), var(--red-s), var(--red-l));
+                --color-text-red: var(--color-red);
+                --color-bg-red: hsl( var(--red-h), var(--red-s), 90% );
+                --color-bg-red-light: var(--color-bg-red);
+                --color-pill-red: hsl( calc(var(--red-h) + 6), calc(var(--red-s) + 42%), 90% );
+                --color-pill-text-red: hsl( calc(var(--red-h) + 0), var(--red-s), calc(var(--red-l) - 32%) );
+                --default-h: 45;
+                --default-s: 8%;
+                --default-l: 20%;
+                --color-default: hsl( var(--default-h), var(--default-s), var(--default-l) );
+                --color-pill-default: hsl( var(--gray-h), var(--gray-s), 90% );
+                --color-pill-text-default: hsl( var(--gray-h), var(--gray-s), calc(var(--gray-l) - 28%) );
+                --color-text-default: #37352F;
+                --color-text-default-light: #7d7c78;
+                --color-bg-default: #ffffff;
+                --color-border-default: #E9E9E7;
+                --color-border-dark: var(--color-border-default);
+                --color-ui-hover-bg: #efefef;
+                --color-card-bg: #ffffff;
+                --color-card-bg-hover: #f9f9f8;
+                --color-calendar-weekend-bg: #f7f6f3;
+                --color-checkbox-bg: #2EAADC;
+                --color-code-bg: rgba(135,131,120,.15);
+                --scrollbar-background-color: #FAFAFA;
+                --scrollbar-thumb-color: #C1C1C1;
+                --scrollbar-border-color: #E8E8E8;
+                --navbar-text-color: #37352F;
+                --navbar-list-item-hover: rgba(130, 130, 130, 0.09);
+                --navbar-background-color-hover: #f0f0f0;
+                --navbar-background-color: #ffffff;
+                --navbar-button-text-color: #ffffff;
+                --navbar-button-background-color: #37352F;
+                --navbar-menu-background-color: var(--navbar-background-color);
+                --navbar-text-color-dark: #282620;
+                --footer-text-color: #37352F;
+                --footer-background-color: #ffffff;
+                --sidebar-text-color: #37352F;
+                --sidebar-cta-text-color: #37352F;
+                --sidebar-background-color: #ffffff;
+                --sidebar-cta-background-color: #ffffff;
+                --sidebar-border-color: #E9E9E7;
+                --sidebar-background-color-hover: #efefef;
+                --sidebar-text-color-dark: #282620;
+                --sidebar-cta-background-color-hover: #efefef
+            }
+
+            html.theme-light code[class*=language-],html.theme-light pre[class*=language-] {
+                background: #f9f9f9;
+                color: #383942;
+                font-family: "Fira Code","Fira Mono",Menlo,Consolas,"DejaVu Sans Mono",monospace;
+                direction: ltr;
+                text-align: left;
+                white-space: pre;
+                word-spacing: normal;
+                word-break: normal;
+                line-height: 1.5;
+                -moz-tab-size: 2;
+                -o-tab-size: 2;
+                tab-size: 2;
+                -webkit-hyphens: none;
+                -moz-hyphens: none;
+                -ms-hyphens: none;
+                hyphens: none
+            }
+
+            html.theme-light code[class*=language-] ::-moz-selection,html.theme-light code[class*=language-]::-moz-selection,html.theme-light pre[class*=language-] ::-moz-selection {
+                background: #e5e5e5;
+                color: inherit
+            }
+
+            html.theme-light code[class*=language-] ::selection,html.theme-light code[class*=language-]::selection,html.theme-light pre[class*=language-] ::selection {
+                background: #e5e5e5;
+                color: inherit
+            }
+
+            html.theme-light pre[class*=language-] {
+                padding: 1em;
+                margin: .5em 0;
+                overflow: auto;
+                border-radius: .3em
+            }
+
+            html.theme-light :not(pre)>code[class*=language-] {
+                padding: .2em .3em;
+                border-radius: .3em;
+                white-space: normal
+            }
+
+            html.theme-light .token.cdata,html.theme-light .token.comment,html.theme-light .token.prolog {
+                color: #9fa0a6
+            }
+
+            html.theme-light .token.doctype,html.theme-light .token.entity,html.theme-light .token.punctuation {
+                color: #383942
+            }
+
+            html.theme-light .token.atrule,html.theme-light .token.attr-name,html.theme-light .token.boolean,html.theme-light .token.class-name,html.theme-light .token.constant,html.theme-light .token.number {
+                color: #b66a00
+            }
+
+            html.theme-light .token.keyword {
+                color: #a625a4
+            }
+
+            html.theme-light .token.deleted,html.theme-light .token.important,html.theme-light .token.property,html.theme-light .token.symbol,html.theme-light .token.tag {
+                color: #e35549
+            }
+
+            html.theme-light .token.attr-value,html.theme-light .token.attr-value>.token.punctuation,html.theme-light .token.builtin,html.theme-light .token.char,html.theme-light .token.inserted,html.theme-light .token.regex,html.theme-light .token.selector,html.theme-light .token.string {
+                color: #50a04f
+            }
+
+            html.theme-light .token.function,html.theme-light .token.operator,html.theme-light .token.variable {
+                color: #4078f1
+            }
+
+            html.theme-light .token.url {
+                color: #0083bb
+            }
+
+            html.theme-light .token.attr-value>.token.punctuation.attr-equals,html.theme-light .token.special-attr>.token.attr-value>.token.value.css {
+                color: #383942
+            }
+
+            html.theme-light .language-css .token.selector {
+                color: #e35549
+            }
+
+            html.theme-light .language-css .token.property {
+                color: #383942
+            }
+
+            html.theme-light .language-css .token.function,html.theme-light .language-css .token.url>.token.function {
+                color: #0083bb
+            }
+
+            html.theme-light .language-css .token.url>.token.string.url {
+                color: #50a04f
+            }
+
+            html.theme-light .language-css .token.atrule .token.rule,html.theme-light .language-css .token.important {
+                color: #a625a4
+            }
+
+            html.theme-light .language-javascript .token.operator {
+                color: #a625a4
+            }
+
+            html.theme-light .language-javascript .token.template-string>.token.interpolation>.token.interpolation-punctuation.punctuation {
+                color: #c91142
+            }
+
+            html.theme-light .language-json .token.operator {
+                color: #383942
+            }
+
+            html.theme-light .language-json .token.null.keyword {
+                color: #b66a00
+            }
+
+            html.theme-light .language-markdown .token.url,html.theme-light .language-markdown .token.url-reference.url>.token.string,html.theme-light .language-markdown .token.url>.token.operator {
+                color: #383942
+            }
+
+            html.theme-light .language-markdown .token.url>.token.content {
+                color: #4078f1
+            }
+
+            html.theme-light .language-markdown .token.url-reference.url,html.theme-light .language-markdown .token.url>.token.url {
+                color: #0083bb
+            }
+
+            html.theme-light .language-markdown .token.blockquote.punctuation,html.theme-light .language-markdown .token.hr.punctuation {
+                color: #9fa0a6;
+                font-style: italic
+            }
+
+            html.theme-light .language-markdown .token.code-snippet {
+                color: #50a04f
+            }
+
+            html.theme-light .language-markdown .token.bold .token.content {
+                color: #b66a00
+            }
+
+            html.theme-light .language-markdown .token.italic .token.content {
+                color: #a625a4
+            }
+
+            html.theme-light .language-markdown .token.list.punctuation,html.theme-light .language-markdown .token.strike .token.content,html.theme-light .language-markdown .token.strike .token.punctuation,html.theme-light .language-markdown .token.title.important>.token.punctuation {
+                color: #e35549
+            }
+
+            html.theme-light .token.bold {
+                font-weight: 700
+            }
+
+            html.theme-light .token.comment,html.theme-light .token.italic {
+                font-style: italic
+            }
+
+            html.theme-light .token.entity {
+                cursor: help
+            }
+
+            html.theme-light .token.namespace {
+                opacity: .8
+            }
+
+            html.theme-light .token.token.cr:before,html.theme-light .token.token.lf:before,html.theme-light .token.token.space:before,html.theme-light .token.token.tab:not(:empty):before {
+                color: hsla(230,8%,24%,.2)
+            }
+
+            html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item {
+                margin-right: .4em
+            }
+
+            html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>a,html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>button,html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>span {
+                background: #e5e5e5;
+                color: #696b76;
+                padding: .1em .4em;
+                border-radius: .3em
+            }
+
+            html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>a:focus,html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>a:hover,html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>button:focus,html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>button:hover,html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>span:focus,html.theme-light div.code-toolbar>.toolbar.toolbar>.toolbar-item>span:hover {
+                background: #c6c6c7;
+                color: #383942
+            }
+
+            html.theme-light .line-highlight.line-highlight {
+                background: hsla(230,8%,24%,.05)
+            }
+
+            html.theme-light .line-highlight.line-highlight:before,html.theme-light .line-highlight.line-highlight[data-end]:after {
+                background: #e5e5e5;
+                color: #383942;
+                padding: .1em .6em;
+                border-radius: .3em;
+                box-shadow: 0 2px 0 0 rgba(0,0,0,.2)
+            }
+
+            html.theme-light pre[id].linkable-line-numbers.linkable-line-numbers span.line-numbers-rows>span:hover:before {
+                background-color: hsla(230,8%,24%,.05)
+            }
+
+            html.theme-light .command-line .command-line-prompt,html.theme-light .line-numbers.line-numbers .line-numbers-rows {
+                border-right-color: hsla(230,8%,24%,.2)
+            }
+
+            html.theme-light .command-line .command-line-prompt>span:before,html.theme-light .line-numbers .line-numbers-rows>span:before {
+                color: #9d9d9f
+            }
+
+            html.theme-light .rainbow-braces .token.token.punctuation.brace-level-1,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-5,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-9 {
+                color: #e35549
+            }
+
+            html.theme-light .rainbow-braces .token.token.punctuation.brace-level-10,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-2,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-6 {
+                color: #50a04f
+            }
+
+            html.theme-light .rainbow-braces .token.token.punctuation.brace-level-11,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-3,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-7 {
+                color: #4078f1
+            }
+
+            html.theme-light .rainbow-braces .token.token.punctuation.brace-level-12,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-4,html.theme-light .rainbow-braces .token.token.punctuation.brace-level-8 {
+                color: #a625a4
+            }
+
+            html.theme-light pre.diff-highlight>code .token.token.deleted:not(.prefix),html.theme-light pre>code.diff-highlight .token.token.deleted:not(.prefix) {
+                background-color: hsla(353,100%,66%,.15)
+            }
+
+            html.theme-light pre.diff-highlight>code .token.token.deleted:not(.prefix) ::-moz-selection,html.theme-light pre.diff-highlight>code .token.token.deleted:not(.prefix)::-moz-selection,html.theme-light pre>code.diff-highlight .token.token.deleted:not(.prefix) ::-moz-selection,html.theme-light pre>code.diff-highlight .token.token.deleted:not(.prefix)::-moz-selection {
+                background-color: hsla(353,95%,66%,.25)
+            }
+
+            html.theme-light pre.diff-highlight>code .token.token.deleted:not(.prefix) ::selection,html.theme-light pre.diff-highlight>code .token.token.deleted:not(.prefix)::selection,html.theme-light pre>code.diff-highlight .token.token.deleted:not(.prefix) ::selection,html.theme-light pre>code.diff-highlight .token.token.deleted:not(.prefix)::selection {
+                background-color: hsla(353,95%,66%,.25)
+            }
+
+            html.theme-light pre.diff-highlight>code .token.token.inserted:not(.prefix),html.theme-light pre>code.diff-highlight .token.token.inserted:not(.prefix) {
+                background-color: hsla(137,100%,55%,.15)
+            }
+
+            html.theme-light pre.diff-highlight>code .token.token.inserted:not(.prefix) ::-moz-selection,html.theme-light pre.diff-highlight>code .token.token.inserted:not(.prefix)::-moz-selection,html.theme-light pre>code.diff-highlight .token.token.inserted:not(.prefix) ::-moz-selection,html.theme-light pre>code.diff-highlight .token.token.inserted:not(.prefix)::-moz-selection {
+                background-color: hsla(135,73%,55%,.25)
+            }
+
+            html.theme-light pre.diff-highlight>code .token.token.inserted:not(.prefix) ::selection,html.theme-light pre.diff-highlight>code .token.token.inserted:not(.prefix)::selection,html.theme-light pre>code.diff-highlight .token.token.inserted:not(.prefix) ::selection,html.theme-light pre>code.diff-highlight .token.token.inserted:not(.prefix)::selection {
+                background-color: hsla(135,73%,55%,.25)
+            }
+
+            html.theme-light .prism-previewer-gradient.prism-previewer-gradient div,html.theme-light .prism-previewer.prism-previewer:before {
+                border-color: #f2f2f2
+            }
+
+            html.theme-light .prism-previewer-color.prism-previewer-color:before,html.theme-light .prism-previewer-easing.prism-previewer-easing:before,html.theme-light .prism-previewer-gradient.prism-previewer-gradient div {
+                border-radius: .3em
+            }
+
+            html.theme-light .prism-previewer.prism-previewer:after {
+                border-top-color: #f2f2f2
+            }
+
+            html.theme-light .prism-previewer-flipped.prism-previewer-flipped.after {
+                border-bottom-color: #f2f2f2
+            }
+
+            html.theme-light .prism-previewer-angle.prism-previewer-angle:before,html.theme-light .prism-previewer-easing.prism-previewer-easing,html.theme-light .prism-previewer-time.prism-previewer-time:before {
+                background: #fff
+            }
+
+            html.theme-light .prism-previewer-angle.prism-previewer-angle circle,html.theme-light .prism-previewer-time.prism-previewer-time circle {
+                stroke: hsl(230,8%,24%);
+                stroke-opacity: 1
+            }
+
+            html.theme-light .prism-previewer-easing.prism-previewer-easing circle,html.theme-light .prism-previewer-easing.prism-previewer-easing line,html.theme-light .prism-previewer-easing.prism-previewer-easing path {
+                stroke: hsl(230,8%,24%)
+            }
+
+            html.theme-light .prism-previewer-easing.prism-previewer-easing circle {
+                fill: transparent
+            }
+
+            :root {
+                --padding-layout: 0.6rem;
+                --border-radii-layout: 5px;
+                --border-thickness-layout: 1px;
+                --border-type-layout: solid;
+                --border-layout: var(--border-thickness-layout) var(--border-type-layout) var(--color-border-default);
+                --layout-max-width: 900px;
+                --column-spacing: 46px;
+                --page-display: flex;
+                --padding-right: calc(env(safe-area-inset-right) + 96px);
+                --padding-left: calc(env(safe-area-inset-left) + 96px);
+                --padding-right-mobile: calc(env(safe-area-inset-right) + 24px);
+                --padding-left-mobile: calc(env(safe-area-inset-left) + 24px);
+                --header-cover-height: 30vh;
+                --header-title-align: center;
+                --header-icon-align: -112px 0 0 0;
+                --header-display: block;
+                --collection-header-border: var(--border-layout);
+                --collection-table-cell-padding: calc(var(--padding-layout) - 0.3rem) calc(var(--padding-layout) - 0.1rem);
+                --collection-list-item-padding: calc(var(--padding-layout) - 0.5rem);
+                --collection-list-item-border-radii: calc( var(--border-radii-layout) - 1px );
+                --collection-card-padding: 0px;
+                --collection-card-title-padding: 0px;
+                --collection-card-content-padding: var(--padding-layout);
+                --collection-card-border-radii: var(--border-radii-layout);
+                --collection-card-gap: 10px;
+                --collection-card-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px -2px;
+                --collection-card-title-size: 0.875rem;
+                --collection-card-cover-height-small: 128px;
+                --collection-card-cover-size-small: 172px;
+                --collection-card-cover-height-medium: 200px;
+                --collection-card-cover-size-medium: 260px;
+                --collection-card-cover-height-large: 200px;
+                --collection-card-cover-size-large: 320px;
+                --collection-card-icon-display: none;
+                --callout-padding: calc(var(--padding-layout) + 0.4rem) calc(var(--padding-layout) + 0.4rem) calc(var(--padding-layout) + 0.4rem) calc(var(--padding-layout) + 0.1em);
+                --callout-border-radii: calc(var(--border-radii-layout) - 2px);
+                --callout-border: var(--border-layout);
+                --callout-icon-display: block;
+                --callout-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px -2px;
+                --file-border-radii: calc(var(--border-radii-layout) - 2px);
+                --equation-border-radii: calc(var(--border-radii-layout) - 2px);
+                --divider-border: var(--border-layout);
+                --quote-border: calc(var(--border-thickness-layout) + 2px) solid currentcolor;
+                --code-padding: calc(var(--padding-layout) + 1.4rem);
+                --code-border-radii: var(--border-radii-layout);
+                --tweet-padding: calc(var(--padding-layout) + 0.65rem) calc(var(--padding-layout) + 0.65rem) calc(var(--padding-layout) + 0.05rem) calc(var(--padding-layout) + 0.65rem);
+                --tweet-border-radii: var(--border-radii-layout);
+                --tweet-border: var(--border-layout);
+                --bookmark-padding: calc(var(--padding-layout) + 0.15rem) 0px calc(var(--padding-layout) + 0.025rem) calc(var(--padding-layout) + 0.275rem);
+                --bookmark-border-radii: var(--border-radii-layout);
+                --bookmark-border: var(--border-layout);
+                --bookmark-image-border-radii: 0px calc(var(--border-radii-layout) - 1px) calc(var(--border-radii-layout) - 1px) 0px;
+                --embed-border-radii: calc(var(--border-radii-layout) - 5px);
+                --image-border-radii: calc(var(--border-radii-layout) - 5px);
+                --title-size: 2.5rem;
+                --quote-size: 0.9rem;
+                --quote-size-large: 1.4rem;
+                --heading-size: 1rem;
+                --primary-font: Inter,Inter-fallback,Helvetica,Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Noto Color Emoji,Segoe UI Symbol,Android Emoji,EmojiSymbols,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,sans-serif;
+                --secondary-font: Inter,Inter-fallback,Helvetica,Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Noto Color Emoji,Segoe UI Symbol,Android Emoji,EmojiSymbols,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,sans-serif;
+                --text-weight: 400;
+                --heading-weight: 600;
+                --heading1-size: calc(var(--heading-size) * 1.875);
+                --heading2-size: calc(var(--heading-size) * 1.5);
+                --heading3-size: calc(var(--heading-size) * 1.25);
+                --heading4-size: calc(var(--heading-size) * 1);
+                --heading5-size: calc(var(--heading-size) * 0.8125);
+                --scrollbar-width: 15px;
+                --navbar-height: 47px;
+                --navbar-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px -2px;
+                --navbar-button-border-radii: 50px;
+                --navbar-list-width-single-column: 320px;
+                --navbar-list-width: 620px;
+                --sidebar-width: 280px;
+                --sidebar-shadow: none
+            }
+
+            html {
+                scroll-padding-top: 53px
+            }
+
+            body {
+                font-family: var(--secondary-font)
+            }
+        </style>
+        <style id="__jsx-undefined">
+            html {
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="super-content-wrapper">
+                <main id="page-projects-bytex-post-pandemic-analysis" class="super-content page__projects-bytex-post-pandemic-analysis parent-page__projects">
+                    <div class="super-navbar__breadcrumbs" style="position:sticky">
+                        <div class="notion-breadcrumb">
+                            <a class="notion-link notion-breadcrumb__item single" href="/">
+                                <div class="notion-navbar__title notion-breadcrumb__title">Patrick Gichuki - Data Analyst</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="notion-header page"><div class="notion-header__cover no-cover"></div><div class="notion-header__content max-width no-cover no-icon"><div class="notion-header__title-wrapper"><h1 class="notion-header__title">INSURANCE COVERAGE AND USAGE ANALYSIS</h1></div></div></div>
+<article id="block-projects-bytex-post-pandemic-analysis" class="notion-root max-width has-footer"><div class="notion-page__properties"><div class="notion-page__property"><div class="notion-page__property-name"><span>Used</span></div><div class="notion-property notion-property__select wrap property-5e716d5f"><span class="notion-pill pill-red first">Tools:</span><span class="notion-pill pill-gray">Excel</span><span class="notion-pill pill-gray">Python</span></div></div><div class="notion-page__property"><div class="notion-page__property-name"><span>Project</span></div><div class="notion-property notion-property__select wrap property-764d3c75"><span class="notion-pill pill-red first">Type:</span><span class="notion-pill pill-purple">Data Cleaning</span><span class="notion-pill pill-purple">Exploratory Data Analysis</span><span class="notion-pill pill-purple">Data Visualization</span></div></div><div class="notion-page__property"><div class="notion-page__property-name"><span>Relevant Link</span></div><div class="notion-property notion-property__url property-525a6958 notion-semantic-string"><a href="https://github.com/BIAnalyst-Patrick/Insurance-Coverage-and-Usage-Report" class="notion-link link" target="_blank" rel="noopener noreferrer">https://github.com/BIAnalyst-Patrick/Insurance-Coverage-and-Usage-Report</a></div></div><div class="notion-page__property"><div class="notion-page__property-name"><span>Type</span></div><div class="notion-property notion-property__select wrap property-4360637d"><span class="notion-pill pill-gray first">Stakeholder</span></div></div><div id="block-root-divider" class="notion-divider"></div></div><p id="block-1502c58d627280509520cef076941e89" class="notion-text notion-text__content notion-semantic-string"><strong><a href="index.html" class="notion-link link" target="_blank" rel="noopener noreferrer">Back to Homepage</a></strong></p><div id="block-1282c58d627281b7ac57c1fb0e0cdb7e" class="notion-callout color-default border"><div class="notion-callout__icon"><img src="https://www.notion.so/icons/gradebook_gray.svg" alt="icon" width="20" height="20" class="notion-icon" style="object-fit:contain;object-position:center" loading="lazy"></div><div class="notion-callout__content"><span class="notion-semantic-string"><em><strong><u>Detailed Reports
+</u></strong></em><strong>Github Repo: </strong><strong><a href="https://github.com/BIAnalyst-Patrick/Insurance-Coverage-and-Usage-Report" class="notion-link link" target="_blank" rel="noopener noreferrer">README.md</a></strong></span>
+</div></div>
+<div id="block-1282c58d627280519515e18b9a84f84b" class="notion-text"><p class="notion-text__content notion-semantic-string"><span class="highlighted-color color-gray"><strong>Table of Contents</strong></span></p><div class="notion-text__children"><ul id="block-1282c58d627280fe9dbec769da30d399" class="notion-table-of-contents color-gray">
+    <li class="notion-table-of-contents__item"><a class="notion-link" href="#block-c251dbd3a8be46e79db70d03015ee8b0">
+        <div style="margin-inline-start:0px" class="notion-semantic-string">HEALTH INSURANCE COVERAGE AND USAGE ANALYSIS</div></a>
+    </li><li class="notion-table-of-contents__item">
+        <a class="notion-link" href="#block-1342c58d62728037a840d0c36ec5b1fd">
+            <div style="margin-inline-start:24px" class="notion-semantic-string">1. Project Background and Overview</div>
+        </a></li><li class="notion-table-of-contents__item">
+            <a class="notion-link" href="#block-1342c58d627280db83f8e68e8deb59f4">
+                <div style="margin-inline-start:24px" class="notion-semantic-string">2. Executive Summary</div>
+            </a></li><li class="notion-table-of-contents__item">
+                <a class="notion-link" href="#block-1342c58d6272808589bcf6efa5e88376">
+                    <div style="margin-inline-start:24px" class="notion-semantic-string">3. Data Structure Overview</div>
+                </a></li><li class="notion-table-of-contents__item">
+                        <a class="notion-link" href="#block-1342c58d62728043926cc0352943e636"><div style="margin-inline-start:24px" class="notion-semantic-string">3. Key Insights</div></a></li><li class="notion-table-of-contents__item"><a class="notion-link" href="#block-1342c58d6272801685adf77ecdd584e4">
+                            <a class="notion-link" href="#block-1342c58d62728081adf9c25371b8924b">
+                                <div style="margin-inline-start:48px" class="notion-semantic-string">Insight 1: Demographic Disparities in Health Insurance Coverage</div>
+                            </a></li><li class="notion-table-of-contents__item">
+                                <a class="notion-link" href="#block-1342c58d62728081adf9c25371b8924b">
+                                    <div style="margin-inline-start:48px" class="notion-semantic-string">Insight 2: Socioeconomic Impact on Insurance Access</div>
+                            </a></li><li class="notion-table-of-contents__item">
+                                <a class="notion-link" href="#block-1342c58d627280f49eaedaf28f1c234d">
+                                    <div style="margin-inline-start:48px" class="notion-semantic-string">Insight 3: Healthcare Utilization by Insurance Status</div>
+                                </a></li><li class="notion-table-of-contents__item"><a class="notion-link" href="#block-1342c58d6272808998bcc1698442c154">
+                                <div style="margin-inline-start:24px" class="notion-semantic-string">4. Recommendations</div></a></li><li class="notion-table-of-contents__item"><a class="notion-link" href="#block-1342c58d6272808998bcc1698442c152">
+                                    <div style="margin-inline-start:24px" class="notion-semantic-string">5. Communication</div>
+                                    <div style="margin-inline-start:24px" class="notion-semantic-string">6. Caveats and Assumptions</div>
+                                    </div><span class="notion-heading__anchor" id="c251dbd3a8be46e79db70d03015ee8b0"></span>
+                       <h1 id="block-c251dbd3a8be46e79db70d03015ee8b0" class="notion-heading notion-semantic-string">INSURANCE COVERAGE AND USAGE ANALYSIS</h1>
+                        <span class="notion-heading__anchor" id="1342c58d62728037a840d0c36ec5b1fd"></span>
+                        <h2 id="block-1342c58d62728037a840d0c36ec5b1fd" class="notion-heading notion-semantic-string">Project Background and Overview</h2>
+                        <p id="block-1342c58d6272807da86fe989bab05b5f" class="notion-text notion-text__content notion-semantic-string">Health insurance coverage and healthcare utilisation are critical indicators of public health and accessibility. This analysis explores the disparities and trends within a dataset representing a sample population of 6,158 records analysed. The findings aim to inform policies and strategies to improve healthcare access for underserved groups.</p>
+                        <span class="notion-heading__anchor" id="1342c58d627280db83f8e68e8deb59f4"></span>
+                        <h2 id="block-1342c58d627280db83f8e68e8deb59f4" class="notion-heading notion-semantic-string"><em>Key Metrics Tracked:</em></h2>
+                            <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Percentage of individuals with health insurance.</li>
+                            <li id="block-1342c58d6272801d9a75d69f009c76b3" class="notion-list-item notion-semantic-string">Influence of employment and income on insurance access.</li>
+                            <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Hospital visit frequency differences between insured and uninsured individuals.</li>
+                            </p>
+                        <h2 id="block-1342c58d627280db83f8e68e8deb59f4" class="notion-heading notion-semantic-string"><em>Objectives:</em></h2>
+                            <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Quantify the proportion of individuals with health insurance.</li>
+                            <li id="block-1342c58d6272801d9a75d69f009c76b3" class="notion-list-item notion-semantic-string">Identify the socioeconomic factors influencing insurance coverage.</li>
+                            <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Assess the impact of health insurance on hospital visit frequency.</li>
+                            </p>
+                        </div>
+                        <div id="block-114a986bab9441a198f9121c3c60e592" class="notion-divider"></div>
+                        <span class="notion-heading__anchor" id="1342c58d6272808589bcf6efa5e88376"></span>
+                        <h2 id="block-1342c58d6272808589bcf6efa5e88376" class="notion-heading notion-semantic-string">2.Executive Summary</h2>
+                        <span class="notion-heading__anchor" id="1342c58d62728081adf9c25371b8924b"></span>
+                        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Insurance Coverage</h4>
+                        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">59% of the population is insured, while 41% lack coverage. Employment and income significantly influence these rates.</li>
+                        <span class="notion-heading__anchor" id="1342c58d62728081adf9c25371b8924b"></span>
+                        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Socioeconomic Disparities</h4>
+                        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Higher-income earners (90% insured) have significantly better coverage compared to low-income groups (35%).</li>
+                            <h4 id="block-1342c58d627280f49eaedaf28f1c231d" class="notion-heading notion-semantic-string">Healthcare Utilization</h4>
+                        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Insured individuals visit hospitals more frequently (average interval: 6 months) compared to the uninsured (7 months).</li>
+                        <h4 id="block-1342c58d627280f49eaedaf28f1c231d" class="notion-heading notion-semantic-string">Key Metrics</h4>
+                        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Proportion of insured individuals, socioeconomic impact on coverage, and healthcare utilisation trends.</li>
+                        <p>
+                            <div id="block-983f1616c3ea4841b231dfb1ae371a8f" class="notion-image page-width">
+                                <img alt="ByteX Dataset ERD" loading="lazy" width="679.9921875" height="404.00602499999997" decoding="async" data-nimg="1" style="color:transparent;object-fit:contain;object-position:center;height:auto" sizes="(max-width: 546px) 100vw, 100vw" srcSet="assets/images/Insurance_coverage_and_usage_dashboard.png 640w, assets/images/Insurance_coverage_and_usage_dashboard.png"/>
+                                <figcaption class="notion-caption notion-semantic-string">Insurance coverage and usage dashboard</figcaption>
+                            </div>
+                        </p>
+                        </p>
+                        <div id="block-114a986bab9441a198f9121c3c60e592"class="notion-divider"></div>
+                        <span class="notion-heading__anchor" id="1342c58d6272808589bcf6efa5e88376"></span>
+                    <h2 id="block-1342c58d62728043926cc0352943e636" class="notion-heading notion-semantic-string">3.	Key Insights</h2>
+                    <span class="notion-heading__anchor" id="1342c58d62728081adf9c25371b8924b"></span>
+                        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Insight 1: Demographic Disparities in Health Insurance Coverage</h4>
+                        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Key Metric: 59% insured, with coverage rates varying by employment and income levels.</li>
+                            <li id="block-1342c58d6272801d9a75d69f009c76b3" class="notion-list-item notion-semantic-string">Implication: Vulnerable groups (unemployed, low-income) exhibit lower coverage, indicating a gap in accessibility.</li>
+                            <p>
+                                <div id="block-983f1616c3ea4841b231dfb1ae371a8f" class="notion-image page-width">
+                                    <img alt="ByteX Dataset ERD" loading="lazy" width="679.9921875" height="404.00602499999997" decoding="async" data-nimg="1" style="color:transparent;object-fit:contain;object-position:center;height:auto" sizes="(max-width: 546px) 100vw, 100vw" srcSet="assets/images/with_insurance.png 640w, assets/images/with_insurance.png"/>
+                                    <figcaption class="notion-caption notion-semantic-string">Insurance Coverage by Demographics</figcaption>
+                                </div>
+                            </p>
+                            <span class="notion-heading__anchor" id="1342c58d62728081adf9c25371b8924b"></span>
+                        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Insight 2: Socioeconomic Impact on Insurance Access</h4>
+                        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Key Metric: Income correlates strongly with insurance rates (90% for high-income vs. 35% for low-income).</li>
+                            <li id="block-1342c58d6272801d9a75d69f009c76b3" class="notion-list-item notion-semantic-string">Implication: Subsidised health programs could address disparities among low-income groups.</li>
+                            <p>
+                                <div id="block-983f1616c3ea4841b231dfb1ae371a8f" class="notion-image page-width">
+                                    <img alt="ByteX Dataset ERD" loading="lazy" width="679.9921875" height="404.00602499999997" decoding="async" data-nimg="1" style="color:transparent;object-fit:contain;object-position:center;height:auto" sizes="(max-width: 546px) 100vw, 100vw" srcSet="assets/images/Coverage_by_emlpoyment_status.png 640w, assets/images/Coverage_by_emlpoyment_status.png"/>
+                                    <figcaption class="notion-caption notion-semantic-string">Health Insurance Coverage by Employment Status</figcaption>
+                                </div>
+                            </p>
+                            <p>
+                                <div id="block-983f1616c3ea4841b231dfb1ae371a8f" class="notion-image page-width">
+                                    <img alt="ByteX Dataset ERD" loading="lazy" width="679.9921875" height="404.00602499999997" decoding="async" data-nimg="1" style="color:transparent;object-fit:contain;object-position:center;height:auto" sizes="(max-width: 546px) 100vw, 100vw" srcSet="assets/images/Coverage_by_Income.png 640w, assets/images/Coverage_by_Income.png"/>
+                                    <figcaption class="notion-caption notion-semantic-string">Health Insurance Coverage by Income Status</figcaption>
+                                </div>
+                            </p>
+                            <h4 id="block-1342c58d627280f49eaedaf28f1c234d" class="notion-heading notion-semantic-string">Insight 3: Healthcare Utilization by Insurance Status</h4>
+                        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Key Metric: Insured individuals have shorter intervals between hospital visits (6 months vs. 7 months).</li>
+                            <li id="block-1342c58d6272801d9a75d69f009c76b3" class="notion-list-item notion-semantic-string">Implication: Insurance improves healthcare access and usage.</li>
+                            <p>
+                                <div id="block-983f1616c3ea4841b231dfb1ae371a8f" class="notion-image page-width">
+                                    <img alt="ByteX Dataset ERD" loading="lazy" width="679.9921875" height="404.00602499999997" decoding="async" data-nimg="1" style="color:transparent;object-fit:contain;object-position:center;height:auto" sizes="(max-width: 546px) 100vw, 100vw" srcSet="assets/images/Last_visit_with_insurance.png 640w, assets/images/Last_visit_with_insurance.png"/>
+                                <figcaption class="notion-caption notion-semantic-string">Hospital Visit Frequency by Insurance Status</figcaption>
+                                </div>
+                            </p>
+                
+                <div id="block-114a986bab9441a198f9121c3c63e592"class="notion-divider"></div>
+                <span class="notion-heading__anchor" id="1342c58d6272808589bcf6efa5e88376"></span>
+            <h2 id="block-1342c58d6272808998bcc1698442c154" class="notion-heading notion-semantic-string">4.Recommendations</h2>
+            <span class="notion-heading__anchor" id="1342c58d62728081adf9c25371b8924b"></span>
+                <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Targeted Subsidies:</h4>
+                <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Develop subsidised health insurance programs focused on low-income and unemployed groups.</li>
+                    <span class="notion-heading__anchor" id="1342c58d62728081adf9c25371b8924b"></span>
+                <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Employer Engagement:</h4>
+                <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Promote employer-sponsored insurance to increase coverage among employed individuals.</li>
+                <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Community Health Initiatives:</h4>
+                <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Expand community-driven health programs to provide basic healthcare for uninsured individuals.</li>
+                <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Awareness Campaigns:</h4>
+                <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Launch public campaigns emphasising the benefits of health insurance, particularly in underserved regions.</li>
+</p>
+            <div id="block-114a986bab9441a198f9121c3c60e592"class="notion-divider"></div>
+            <span class="notion-heading__anchor" id="1342c58d6272808589bcf6efa5e88376"></span>
+        <h2 id="block-1342c58d6272808998bcc1698442c152" class="notion-semantic-string">5.Communication</h2>
+        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">To Policymakers:</h4>
+        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Highlight the disparities in insurance coverage and recommend targeted subsidies for low-income populations.</li>
+        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">To Employers:</h4>
+        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Emphasise the role of employer-sponsored insurance in improving coverage rates.</li>
+        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">To Community Organizations:</h4>
+        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Advocate for localised initiatives that enhance healthcare access for the uninsured.</li>
+    </li>
+                <div id="block-114a986bab9441a198f9121c3c60e592"class="notion-divider"></div>
+            <span class="notion-heading__anchor" id="1342c58d6272808589bcf6efa5e88376"></span>
+        <h2 id="block-1342c58d6272808998bcc1698442c152" class="notion-semantic-string">6. Caveats and Assumptions</h2>
+        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Data Limitations:</h4>
+        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">The dataset may not represent the entire population, potentially skewing results.</li>
+        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Self-Reported Bias:</h4>
+        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Variables like income and hospital visits are self-reported and may contain inaccuracies.</li>
+        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Temporal Context:</h4>
+        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">The analysis reflects a specific period and may not capture ongoing trends.</li>
+        <h4 id="block-1342c58d62728081adf9c25371b8924b" class="notion-heading notion-semantic-string">Unmeasured Variables:</h4>
+        <li id="block-1342c58d62728012b2f5f98537e372bf" class="notion-list-item notion-semantic-string">Factors like regional healthcare policies and cultural differences were not accounted for.</li>
+</div>  
+    <P>
+        
+         <li id="block-1e9c4e7ab6634b7e96bd5d848fe20e1f" class="notion-list-item notion-semantic-string">See the  data here <a href="https://github.com/BIAnalyst-Patrick/Insurance-Coverage-and-Usage-Report" class="notion-link link" target="_blank" rel="noopener noreferrer">Excel workbook</a>.
+        </li>
+        <li id="block-805ab2f3943244e381084e9b75716b5d" class="notion-list-item notion-semantic-string">See Python data cleaning, visualization, and analysis in the <a href="https://github.com/BIAnalyst-Patrick/Insurance-Coverage-and-Usage-Report" class="notion-link link" target="_blank" rel="noopener noreferrer">Jupyter Notebook</a>.
+        </li>
+        <li id="block-4003f7f8f751433bbc2da8795c5fe25d" class="notion-list-item notion-semantic-string">For more of my projects and data journey, visit <a class="notion-link link" href="/">my portfolio website and reach out</a> !</li>
+        </ul>
+             <div id="block-1282c58d627281c2bca2efb49786ea82" class="notion-text"></div>
+             <p id="block-1502c58d627280509520cef076941e89" class="notion-text notion-text__content notion-semantic-string"><strong><a href="index.html"class="notion-link link" target="_blank" rel="noopener noreferrer">Back to Homepage</a></strong></p><div id="block-1282c58d627281b7ac57c1fb0e0cdb7e" class="notion-callout color-default border"><div class="notion-callout__icon"><img src="https://www.notion.so/icons/gradebook_gray.svg" alt="icon" width="20" height="20" class="notion-icon" style="object-fit:contain;object-position:center" loading="lazy"></div><div class="notion-callout__content"><span class="notion-semantic-string"><em><strong><u>Detailed Reports
+</u></strong></em><strong>Github Repo: </strong><strong><a href="https://github.com/BIAnalyst-Patrick/Insurance-Coverage-and-Usage-Report" class="notion-link link" target="_blank" rel="noopener noreferrer">README.md</a></strong></span>
+</div>
+</div>
+</body>
+</html>
